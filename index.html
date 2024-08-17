@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                           <!-- Title Of Web-Page -->
+    <title>JavaScript _Html -Onclick-Events </title>
+       <!-- Java-Script- File-Link -->
+        <script src="/script.js"></script>
+        <!-- CSS Style Link -->
+         <link rel="stylesheet" href="/style.css">
+</head>
+<body  onafterprint="myFunction()"    >
+    
+    
+               <!--  JavaScript _Html -Onclick-Events -->
+                                  <!-- When Weclick on button  it give you Date And Time   -->
+                                   <p> 1.First Example</p>
+                          <h2>  To Get Date And Time</h2>
+                                 <div class="container">
+                                    <button onclick="document.getElementById('one1').innerHTML=Date()"; > Click Me To Know The Time&Date </button>
+                                    <p id="one1"></p>
+                                 </div>
+                                 <!-- In This Click Events when we click CTRL+P   it will show the "POP-UP" in Web-page  -->
+                                    <p>2. Example onclick Events</p>
+                                   <h3>Print this document!</h3>
+                                       <p><b>Tip</b>: The keyboard shortcut Ctrl+P prints a page.</p>
+                                       <!--  -->
+
+                                       <p>3.Example</p>
+                                         <h2>  onbeforeunload This event used  when we click on refresh it will pop up the massage alert </h2>
+                                         <!--  -->
+                                         <p>4.Example </p>
+                                         <h2> This function used for function</h2>
+
+                                         <input type="text"  onblur="myFunction()">
+
+                                              <p>5.Example</p>
+                                         <h2>When you leave the input field, a function is triggered which transforms the input text to upper case.</h2>
+
+                                          <label> <input type="text"  id="upercase" onchange="bhanuFunction()">  </label>
+
+                                          <!--click  event  6 .Example -->
+                                          <p>6.Example</p>
+                                          <h2>This Click function When We click on element on web page it change text </h2>
+                                          <p id="clickevent" onclick="chaitanyaFunction()">Click Me </p>
+                                       
+                                          <p>7.Example</p>
+                                             <h2>Assign an oncopy event to an input element.</h2>
+                                             <input type="text" oncopy="oncopyFunction()" value="Click on input and copy ">
+                                             <p id="oncopy"></p>
+
+                                             <p>8.Example</p>
+                                             <h2>Assign an CUT event to an input element.</h2>
+                                             <input type="text"    oncut="oncutFunction()" value="YOU CUT THE INPUT TEXT BY CLICK ">
+                                             <p id="cut-event"></p>
+
+</body>
+</html>
